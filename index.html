@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards layout</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a href="/index.html" class="logo">
+        <i class="fa-solid fa-clapperboard fa-xl"></i>
+      </a>
+      <ul>
+        <li>
+          <a href="#" class="active"
+            ><i class="fa-solid fa-table-cells fa-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-film fa-xl"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-tv fa-xl"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-bookmark fa-xl"></i></a>
+        </li>
+      </ul>
+      <a href="/index.html" class="profile-link">
+        <img
+          src="https://i.pinimg.com/236x/8b/f6/85/8bf685733ce3498c54434555bfe1f78d.jpg"
+          alt="Profile Picture"
+        />
+      </a>
+    </nav>
+    <div class="main-content">
+      <form class="search-form">
+        <button><i class="fa-solid fa-search"></i></button>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search for movies or TV series"
+        />
+      </form>
+      <article>
+        <h1>Trending</h1>
+        <div class="card-carousel">
+          <div class="movie-card">
+            <img
+              src="https://images.unsplash.com/photo-1563705330026-7b2d352069c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+              alt="Card Picture"
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2019</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i> Movie
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">Beyond Earth</h2>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://images.unsplash.com/photo-1482446078840-0c634e9eb6e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt=""
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2021</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i>Movie
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">Bottom Gear</h2>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2019/05/joseph-barrientos-49318-unsplash-e1558728034701.jpg?resize=1500%2C1000&ssl=1"
+              alt=""
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2019</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i>TV Series
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">Undiscovered Cities</h2>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://images.unsplash.com/photo-1515463626042-123ab67dcaa7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              alt=""
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2020</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i>Movie
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">The Mirror</h2>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://images.unsplash.com/photo-1481934369966-488b8bd3fc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1319&q=80"
+              alt=""
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2008</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i>Movie
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">Helen</h2>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://images.unsplash.com/photo-1505238052661-c0cb4fc6e274?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1286&q=80"
+              alt=""
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2009</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i>Movie
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">Breakers</h2>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt=""
+            />
+            <a href="#" class="bookmark-button">
+              <i class="fa-solid fa-bookmark"></i>
+            </a>
+            <ul class="movie-badges">
+              <li class="movie-year">2005</li>
+              <li class="movie-category">
+                <i class="fa-solid fa-film"></i>Movie
+              </li>
+              <li class="movie-rating">PG</li>
+            </ul>
+            <h2 class="movie-title">The Unknown</h2>
+          </div>
+        </div>
+      </article>
+
+      <article class="recommended-list">
+        <h1>Recommended for you</h1>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1610052783426-d9e41e5b1066?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2021</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i> Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">The Great Lands</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1499080863200-1f37ed9cb653?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2021</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">The Diary</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1560959502-3301da239316?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i> Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Earth's Untouched</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1545037923-42189cdc717d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2019</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i> Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">No Land Beyond</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1430514625417-38e9c79c95c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2016</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">During the Hunt</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1608474008066-8964ba5be90c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2016</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Autosport the Series</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1613905780946-26b73b6f6e11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i> Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Same Answer</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1506112573664-1a1b66d93ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2016</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Below Echo</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1565015931955-2febbbdef4b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2015</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">The Rockies</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1600297665364-5430d6b6b4ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Relentless</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2018</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Community of Ours</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1121&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2015</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Van Life</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1508181238439-4c822474ac4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2021</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">The Heiress</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1514760263916-4ac83991b2e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Off the Track</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1471958680802-1345a694ba6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1266&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Whispering Hill</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1575259711652-42e26c56d354?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2013</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">112</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1648887233981-3d811bb838cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Lone Heart</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1617903502812-32ba77601805?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1583&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2018</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>V Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Production Line</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2016</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Dogs</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1142&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2020</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Asia in 24 hours</h2>
+        </div>
+
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1616003438050-fdadd37b48ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2016</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">The Tasty Tour</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1541679842955-ff256fc8774e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Darker</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1616849109726-db78f9ffed15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1333&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-solid fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2018</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>TV Series
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Unresolved Cases</h2>
+        </div>
+        <div class="movie-card">
+          <img
+            src="https://images.unsplash.com/photo-1583711565105-afd990bb44a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <a href="#" class="bookmark-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <ul class="movie-badges">
+            <li class="movie-year">2017</li>
+            <li class="movie-category">
+              <i class="fa-solid fa-film"></i>Movie
+            </li>
+            <li class="movie-rating">PG</li>
+          </ul>
+          <h2 class="movie-title">Mission:Saturn</h2>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
