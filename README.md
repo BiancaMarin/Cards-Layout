@@ -4,4 +4,4 @@ The goal was to build a responsive website compatible for mobile, tablet and des
 
 ## Illustration
 
-![Responsive](Responsive.png)
+![Responsive](Responsive%20.png)
